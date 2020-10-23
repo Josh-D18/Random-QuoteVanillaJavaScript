@@ -109,6 +109,7 @@ function changeBgColor(){
   let randColor3 = Math.floor(Math.random() * 255);
   let style = `rgb(${randColor}, ${randColor2}, ${randColor3})`;
   const body = document.querySelector('body');
+  //  Got the setAttribute() method from https://www.w3schools.com/jsref/met_element_setattribute.asp
   return body.style.backgroundColor = style;
 } 
 
