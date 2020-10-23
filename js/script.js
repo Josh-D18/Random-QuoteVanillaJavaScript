@@ -98,7 +98,8 @@ const printQuote = () => {
         if(randomQuoteObj['year']){
           html += `<span class="year">${randomQuoteObj['year']}</span></p>`
         }
-
+        
+        // If the random quote object has a tags property, concatenate a <span> element with the class "tags" to the HTML string.
         if(randomQuoteObj['tags']){
           html += `<span class="tags">${randomQuoteObj['tags']}</span></p>`
         }
